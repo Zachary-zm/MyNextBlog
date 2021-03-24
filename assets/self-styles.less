@@ -1,0 +1,247 @@
+.post-wrap {
+    padding: 25px 20px 0 265px;
+    display: flex;
+  }
+  
+  .post-left {
+    border-radius: 0 5px 5px 0;
+    overflow: hidden;
+    flex: 1;
+  }
+  
+  .post-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    height: 59px;
+    padding: 20px;
+  }
+  
+  .post-top-left a {
+    font-size: 16px;
+    color: #999;
+    cursor: pointer;
+  }
+  
+  .post-top-left a.active {
+    color: #555;
+  }
+  
+  .post-top-right {
+    display: flex;
+  }
+  
+  .post-list {
+    background: #fff;
+    min-height: 500px;
+    padding: 20px 20px 0;
+    margin-bottom: 0;
+  }
+  
+  .btn-load {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  
+  .no-more {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    padding: 10px;
+    user-select: none;
+  }
+  
+  .no-data {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    margin: 20px 0;
+    user-select: none;
+  }
+  
+  @keyframes dot-loading {
+    0% {
+      transform: scale(1, 1);
+      opacity: 0.5;
+    }
+  
+    33.33% {
+      transform: scale(1.667, 1.667);
+      opacity: 1;
+    }
+  
+    66.66% {
+      transform: scale(1, 1);
+      opacity: 0.5;
+    }
+  
+    100% {
+      transform: scale(1, 1);
+      opacity: 0.5;
+    }
+  }
+  
+  .dot-loading {
+    transform: translate(-50%, 0);
+    position: absolute;
+    left: 50%;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  
+  .post-list li.last-li:first-of-type .dot-loading {
+    margin-top: 10px;
+  }
+  
+  .dot-loading > div {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    opacity: 0.5;
+    animation: dot-loading 1.2s linear infinite;
+  }
+  
+  .dot-loading > div:nth-child(1) {
+    background: #1890ff;
+  }
+  
+  .dot-loading > div:nth-child(2) {
+    background: #1890ff;
+    animation-delay: 0.4s;
+  }
+  
+  .dot-loading > div:nth-child(3) {
+    background: #1890ff;
+    animation-delay: 0.8s;
+  }
+  
+  .last-li {
+    position: relative;
+    height: 60px;
+  }
+  
+  .alert-filter {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #abdcff;
+    background-color: #f0faff;
+    padding: 10px 12px;
+    font-size: 14px;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .alert-filter span {
+    margin: 0 2px;
+    font-weight: 500;
+  }
+  
+  .post-right {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  .post-right .widget-container:last-child {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 1160px) {
+    .post-right {
+      display: none;
+    }
+  
+    .post-list {
+      min-height: 100vh;
+    }
+  }
+  
+  @media (max-width: 840px) {
+    .post-wrap {
+      padding: 15px 0 0 0;
+    }
+  
+    .post-left {
+      border-radius: 5px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .post-top-right {
+      display: none;
+    }
+  
+    .post-left {
+      border-radius: 0;
+    }
+  }
+
+
+  .widget-container {
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .widget-header {
+    font-size: 15px;
+    padding: 0 20px;
+    line-height: 50px;
+    border-bottom: 1px solid #e7eaec;
+    user-select: none;
+  }
+  
+  .widget-body {
+    padding: 20px;
+    min-height: 170px;
+    position: relative;
+  }
+  
+  .widget-body .ant-spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px;
+  }
+  
+  .dark-mode .container img,
+  .dark-mode .container .item-footer1 a:hover,
+  .dark-mode .container .item-footer2 a:hover,
+  .dark-mode .container .navbar-collapse .dark-tools,
+  .dark-mode .container .avatar svg,
+  .dark-mode .container .comment-item-avatar,
+  .dark-mode .container .profile-wrap,
+  .dark-mode .container .article-content .pre-header-left div,
+  .dark-mode .container pre.info,
+  .dark-mode .container pre.alert,
+  .dark-mode .container .icon-emoji,
+  .dark-mode .ant-drawer img,
+  .dark-mode .ant-drawer .pre-header-left div,
+  .dark-mode .ant-drawer pre.info,
+  .dark-mode .ant-drawer pre.alert
+  {
+    mix-blend-mode: difference;
+  }
+
+  html {
+    word-spacing: 1px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+
+  .svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    vertical-align: -.125em;
+    margin-right: 10px;
+}

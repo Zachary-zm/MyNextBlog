@@ -1,0 +1,150 @@
+
+.post-detail-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .left-wrap {
+    position: relative;
+    max-width: 792px;
+  }
+  
+  .content-wrap {
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    min-height: 50vh;
+    font-size: 16px;
+  }
+  
+  .article-title {
+    margin: 40px 0 100px;
+    text-align: center;
+  }
+  
+  .article-title span {
+    color: #777;
+  }
+  
+  .article-title h1 {
+    font-size: 2em;
+    font-weight: 500;
+  }
+  
+  .article-content {
+    min-height: 60vh;
+  }
+  
+  .side-wrap {
+    width: 260px;
+    flex: none;
+    margin-left: 20px;
+  }
+  
+  .side-block-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .side-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+    user-select: none;
+  }
+  
+  .side-wrap .category-title {
+    border-top: 1px solid transparent;
+    font-size: 15px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #444;
+  }
+  
+  .side-wrap .category-title img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+  }
+  
+  .side-wrap .category-title span {
+    padding-left: 28px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .ant-anchor-ink::before {
+    width: 3px;
+    background-color: #eee;
+  }
+  
+  .license-wrap {
+    position: relative;
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+    padding: 13px 16px 8px;
+    margin: 50px 0 20px;
+    font-size: 14px;
+  }
+  
+  .license-wrap > span,
+  .end-wrap span {
+    position: absolute;
+    left: 50%;
+    top: -12px;
+    transform: translate(-50%, 0);
+    display: block;
+    background: #fff;
+    font-weight: 500;
+    user-select: none;
+  }
+  
+  .license-wrap > p {
+    margin-bottom: 5px;
+  }
+  
+  .end-wrap {
+    position: relative;
+    border-top: 1px solid #ddd;
+    margin: 40px 0 70px;
+  }
+  
+  .sticky-wrap {
+    position: sticky;
+    top: 90px;
+  }
+  
+  .article-views {
+    color: #666;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .article-views .split-line {
+    position: relative;
+    top: -1px;
+    color: #aaa;
+  }
+  
+  @media (max-width: 890px) {
+    .side-wrap {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .post-detail-wrap {
+      margin-top: 15px;
+    }
+  
+    .content-wrap {
+      padding: 15px;
+    }
+  }

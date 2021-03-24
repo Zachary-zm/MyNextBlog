@@ -1,0 +1,51 @@
+{
+  "name": "myblog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-redux": "^7.1.6",
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.10",
+    "@fortawesome/free-regular-svg-icons": "^5.12.0",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "express": "^4.17.1",
+    "@types/cookie-parser": "^1.4.2",
+    "cookie-parser": "^1.4.4",
+    "@types/mongoose": "^5.5.41",
+    "mongoose": "^5.8.7",
+    "antd": "4.13.0",
+    "markdown-it": "^10.0.0",
+    "markdown-it-github-headings": "^2.0.0",
+    "markdown-it-task-lists": "^2.1.1",
+    "babel-plugin-import": "^1.13.3",
+    "next-redux-saga": "^3.0.0",
+    "next-redux-wrapper": "^2.0.0",
+    "redux-saga": "^0.16.0",
+    "react-redux": "^7.2.0",
+    "less": "^3.8.1",
+    "swr": "0.4.2",
+    "axios": "^0.19.0",
+    "viewerjs": "^1.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2",
+    "redux-devtools-extension": "^2.13.5",
+    "webpack": "^4.35.3",
+    "webpack-bundle-analyzer": "^3.3.2"
+  }
+}

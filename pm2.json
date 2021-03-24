@@ -1,0 +1,10 @@
+{
+    "apps": [{
+      "name": "NextAppName",
+      "script": "yarn",
+      "args": "start",
+      "exec_mode": "cluster",
+      "instances": "max"
+    }]
+  }
+  
