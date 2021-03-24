@@ -1,3 +1,11 @@
+
+Next + Antd + TS + Mongodb 仿网上某博客网站做的Example
+
+不做商业用途，也暂不对外开放
+
+考虑后期迭代更换样式
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
